@@ -7,3 +7,9 @@
 #'@name davos
 #'@usage data(davos)
 "davos"
+
+# library(tidyverse)
+# load("data/davos.rda")
+# davos        <- davos %>% select(Id, Name, Title, Organisation = Org, Country, Year, Gender, Birth) %>% mutate(Birth = as.numeric(Birth)) %>% arrange(Year)
+# davos$Gender <- davos$Gender %>% as_factor() %>% fct_recode(NULL = "NA")
+# save(davos, file = "data/davos.rda")
