@@ -4,7 +4,7 @@
 \name{davos}
 \alias{davos}
 \title{Davos dataset}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 19758 rows and 15 columns.}
+\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 19758 rows and 8 columns.}
 \usage{
 data(davos)
 }
